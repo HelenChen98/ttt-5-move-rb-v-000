@@ -12,8 +12,10 @@ def move(board, index, character="X")
     board[0]=character
   else
     board[input_to_index(index)]=character
-  return board
+  end
+return board
 end
+
 
 def input_to_index(index_string)
   return index_string.to_i-1
