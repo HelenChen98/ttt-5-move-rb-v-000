@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def move(board, index, character="X")
   if index=="0"&&character=="X"
-    board[0]=character
+    board[0]="X"
   else
     board[input_to_index(index)]=character
   end
